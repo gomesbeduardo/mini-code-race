@@ -1,0 +1,7 @@
+import mesas_restaurante
+def main():
+    dicionario = dict()
+    lista = list()
+    qts_mesas = mesas_restaurante.numero_de_mesas(dicionario, lista)
+    mesas_restaurante.reserva(lista)
+main()
